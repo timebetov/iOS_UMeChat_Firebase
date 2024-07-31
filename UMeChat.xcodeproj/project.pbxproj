@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87E810B62507AC6401AFCEB2 /* Pods_UMeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96304A201DC61697D7785DE /* Pods_UMeChat.framework */; };
+		993421952C54E8A50052EB15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993421942C54E8A50052EB15 /* AppDelegate.swift */; };
+		993421972C54E8A50052EB15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993421962C54E8A50052EB15 /* SceneDelegate.swift */; };
+		993421992C54E8A50052EB15 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993421982C54E8A50052EB15 /* WelcomeViewController.swift */; };
+		9934219C2C54E8A50052EB15 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9934219B2C54E8A50052EB15 /* Base */; };
+		9934219E2C54E8A60052EB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9934219D2C54E8A60052EB15 /* Assets.xcassets */; };
+		993421A12C54E8A60052EB15 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 993421A02C54E8A60052EB15 /* Base */; };
+		99721B5B2C54F0BF00ADCC4C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99721B5A2C54F0BF00ADCC4C /* RegisterViewController.swift */; };
+		99721B5D2C54F0CC00ADCC4C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99721B5C2C54F0CC00ADCC4C /* ChatViewController.swift */; };
+		998E58DC2C57779400CBFA62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998E58DB2C57779400CBFA62 /* Constants.swift */; };
+		998E58DE2C577B8A00CBFA62 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998E58DD2C577B8A00CBFA62 /* Message.swift */; };
+		998E58E22C57AE4200CBFA62 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 998E58E12C57AE4200CBFA62 /* MessageCell.xib */; };
+		998E58E32C57AE4200CBFA62 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998E58E02C57AE4200CBFA62 /* MessageCell.swift */; };
+		999DCDDC2C54F4E700550183 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 999DCDDB2C54F4E700550183 /* GoogleService-Info.plist */; };
+		99B43CFB2C592444002C6BA2 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B43CFA2C592444002C6BA2 /* ChatManager.swift */; };
+		99CF839D2C5A0ABF00900025 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF839C2C5A0ABF00900025 /* AuthManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		993421912C54E8A50052EB15 /* UMeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993421942C54E8A50052EB15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		993421962C54E8A50052EB15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		993421982C54E8A50052EB15 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		9934219B2C54E8A50052EB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9934219D2C54E8A60052EB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		993421A02C54E8A60052EB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		993421A22C54E8A60052EB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99721B5A2C54F0BF00ADCC4C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		99721B5C2C54F0CC00ADCC4C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		998E58DB2C57779400CBFA62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		998E58DD2C577B8A00CBFA62 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		998E58E02C57AE4200CBFA62 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		998E58E12C57AE4200CBFA62 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		999DCDDB2C54F4E700550183 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99B43CFA2C592444002C6BA2 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		99CF839C2C5A0ABF00900025 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		B96304A201DC61697D7785DE /* Pods_UMeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9D4A71F9C4504637DB9398 /* Pods-UMeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMeChat.release.xcconfig"; path = "Target Support Files/Pods-UMeChat/Pods-UMeChat.release.xcconfig"; sourceTree = "<group>"; };
+		D72AD1C5A64E72824EC2215D /* Pods-UMeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMeChat.debug.xcconfig"; path = "Target Support Files/Pods-UMeChat/Pods-UMeChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9934218E2C54E8A50052EB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E810B62507AC6401AFCEB2 /* Pods_UMeChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE2EBFBCFF624FC7907ED29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B96304A201DC61697D7785DE /* Pods_UMeChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		993421882C54E8A50052EB15 = {
+			isa = PBXGroup;
+			children = (
+				993421932C54E8A50052EB15 /* UMeChat */,
+				993421922C54E8A50052EB15 /* Products */,
+				E32CFF4E1942798A762C0215 /* Pods */,
+				1DE2EBFBCFF624FC7907ED29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		993421922C54E8A50052EB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993421912C54E8A50052EB15 /* UMeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993421932C54E8A50052EB15 /* UMeChat */ = {
+			isa = PBXGroup;
+			children = (
+				993421942C54E8A50052EB15 /* AppDelegate.swift */,
+				993421962C54E8A50052EB15 /* SceneDelegate.swift */,
+				998E58DF2C577B8D00CBFA62 /* Model */,
+				993421A82C54E8F10052EB15 /* View */,
+				993421A92C54E8FA0052EB15 /* Controller */,
+				9934219D2C54E8A60052EB15 /* Assets.xcassets */,
+				9934219F2C54E8A60052EB15 /* LaunchScreen.storyboard */,
+				993421A22C54E8A60052EB15 /* Info.plist */,
+				999DCDDB2C54F4E700550183 /* GoogleService-Info.plist */,
+				998E58DB2C57779400CBFA62 /* Constants.swift */,
+			);
+			path = UMeChat;
+			sourceTree = "<group>";
+		};
+		993421A82C54E8F10052EB15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9934219A2C54E8A50052EB15 /* Main.storyboard */,
+				998E58E02C57AE4200CBFA62 /* MessageCell.swift */,
+				998E58E12C57AE4200CBFA62 /* MessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		993421A92C54E8FA0052EB15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				993421982C54E8A50052EB15 /* WelcomeViewController.swift */,
+				99721B5A2C54F0BF00ADCC4C /* RegisterViewController.swift */,
+				99721B5C2C54F0CC00ADCC4C /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		998E58DF2C577B8D00CBFA62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				998E58DD2C577B8A00CBFA62 /* Message.swift */,
+				99B43CFA2C592444002C6BA2 /* ChatManager.swift */,
+				99CF839C2C5A0ABF00900025 /* AuthManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E32CFF4E1942798A762C0215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D72AD1C5A64E72824EC2215D /* Pods-UMeChat.debug.xcconfig */,
+				BB9D4A71F9C4504637DB9398 /* Pods-UMeChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993421902C54E8A50052EB15 /* UMeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993421A52C54E8A60052EB15 /* Build configuration list for PBXNativeTarget "UMeChat" */;
+			buildPhases = (
+				B57A6A41E150BBB72442ADA4 /* [CP] Check Pods Manifest.lock */,
+				9934218D2C54E8A50052EB15 /* Sources */,
+				9934218E2C54E8A50052EB15 /* Frameworks */,
+				9934218F2C54E8A50052EB15 /* Resources */,
+				F4464DD25DEEF6C5AA6D7F8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMeChat;
+			productName = UMeChat;
+			productReference = 993421912C54E8A50052EB15 /* UMeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993421892C54E8A50052EB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					993421902C54E8A50052EB15 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 9934218C2C54E8A50052EB15 /* Build configuration list for PBXProject "UMeChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 993421882C54E8A50052EB15;
+			productRefGroup = 993421922C54E8A50052EB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993421902C54E8A50052EB15 /* UMeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9934218F2C54E8A50052EB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E58E22C57AE4200CBFA62 /* MessageCell.xib in Resources */,
+				9934219E2C54E8A60052EB15 /* Assets.xcassets in Resources */,
+				999DCDDC2C54F4E700550183 /* GoogleService-Info.plist in Resources */,
+				993421A12C54E8A60052EB15 /* Base in Resources */,
+				9934219C2C54E8A50052EB15 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B57A6A41E150BBB72442ADA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4464DD25DEEF6C5AA6D7F8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMeChat/Pods-UMeChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMeChat/Pods-UMeChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UMeChat/Pods-UMeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9934218D2C54E8A50052EB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993421992C54E8A50052EB15 /* WelcomeViewController.swift in Sources */,
+				998E58E32C57AE4200CBFA62 /* MessageCell.swift in Sources */,
+				993421952C54E8A50052EB15 /* AppDelegate.swift in Sources */,
+				99B43CFB2C592444002C6BA2 /* ChatManager.swift in Sources */,
+				993421972C54E8A50052EB15 /* SceneDelegate.swift in Sources */,
+				99721B5D2C54F0CC00ADCC4C /* ChatViewController.swift in Sources */,
+				99721B5B2C54F0BF00ADCC4C /* RegisterViewController.swift in Sources */,
+				998E58DC2C57779400CBFA62 /* Constants.swift in Sources */,
+				998E58DE2C577B8A00CBFA62 /* Message.swift in Sources */,
+				99CF839D2C5A0ABF00900025 /* AuthManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9934219A2C54E8A50052EB15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9934219B2C54E8A50052EB15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9934219F2C54E8A60052EB15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993421A02C54E8A60052EB15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		993421A32C54E8A60052EB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		993421A42C54E8A60052EB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		993421A62C54E8A60052EB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72AD1C5A64E72824EC2215D /* Pods-UMeChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YN75G3Z3G7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UMeChat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UMeChat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.timebetov.UMeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		993421A72C54E8A60052EB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9D4A71F9C4504637DB9398 /* Pods-UMeChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YN75G3Z3G7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UMeChat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UMeChat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.timebetov.UMeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9934218C2C54E8A50052EB15 /* Build configuration list for PBXProject "UMeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993421A32C54E8A60052EB15 /* Debug */,
+				993421A42C54E8A60052EB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993421A52C54E8A60052EB15 /* Build configuration list for PBXNativeTarget "UMeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993421A62C54E8A60052EB15 /* Debug */,
+				993421A72C54E8A60052EB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 993421892C54E8A50052EB15 /* Project object */;
+}
