@@ -2,8 +2,8 @@
 UMe chat is simple messaging application similar to WhatsApp. I used the service called Firebase Firestore as a backend, to store and retrieve messages.
 
 ## App screenshots
-![WelcomeScreen](Imgs/WelcomeScreen.png {width=40px height=200px})
-![ChatScreen](Imgs/ChatScreen.png {width=40px height=200px})
+<img src="Imgs/WelcomeScreen.png" width="350">
+<img src="Imgs/ChatScreen.png" width="350">
 
 ## What I Learned ?
 - Integrate third party libraries in your app using Cocoapods and Swift Package Manager.
